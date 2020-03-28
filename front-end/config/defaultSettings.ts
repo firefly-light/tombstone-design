@@ -40,6 +40,9 @@ export interface DefaultSettings {
   // Usage: https://github.com/ant-design/ant-design-pro/pull/3517
   iconfontUrl: string;
   colorWeak: boolean;
+
+  // 前后端分离时 配置后端 访问域名
+  url: string;
 }
 
 export default {
@@ -58,4 +61,5 @@ export default {
   title: 'Ant Design Pro',
   pwa: false,
   iconfontUrl: '',
+  url: '',
 } as DefaultSettings;
